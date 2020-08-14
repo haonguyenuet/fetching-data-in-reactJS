@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css'
 
-import Search from './components/Search';
-import List from './components/List';
-import Button from './components/Button';
+import Search from './components/search_component';
+import List from './components/list_component';
+import Button from './components/button_component';
 
 import propTypes from 'prop-types'
 
@@ -15,7 +15,7 @@ import{
   PARAM_SEARCH,
   PARAM_PAGE,
   PARAM_HPP,
-} from './constants/index';
+} from './constants/app_constant';
 
 class App extends Component {
    
